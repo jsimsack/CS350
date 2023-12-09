@@ -1,1 +1,10 @@
 # CS350
+The two projects that I chose to upload were the Morse Code project and the Thermostat projct.
+
+The Morse Code project was configured to send one of two morse code messages SOS or OK toggled by either of the buttons on the TI board. The Morse Code was sent via the LED's on the board. Dots were represented by the Red LED and dashes were represented by the green LED. Each dot and dash had a required on and off time. Pressing the button would switch the message, but allow the current message to complete first. Areas where I performed well would have to have been the functionality. The code worked, all during the correct intervals, however the code itself was written a little funky. I would improve it by looping my logic in the main function instead of calling a function when then had my loops. Google was my best friend during this project and debugging the program and testing things really helped put the pieces together. 
+
+The thermostat project was configured to simulate a thermostat by flipping a heat bit which was turned on or off depending on what the on board temperature sensor was reading and the configured setpoint. The temperature sensor was checked at specific intervals and so were the buttons on the board. Pressing the left button decreased the setpoint and pressing the right button increased it. The project also required the terminal be udpated every second to show the current temperature, the setpoint, if the heat bit was on and how long the program had been running. This one I thought I did pretty well, the code is pretty well modularized and everything worked pretty well.
+
+This type of work I find transferrable to industrial automation and as this was my last course, there will be no need to transfer this knowledge to future projects :)
+
+I made both of these projects maintainable, readable and adaptable by ensuring that timers, their intervals and other variables such as setpoints were defined in variables all in one place. This allows for finding items and making changes easy for anyone jumping in.
